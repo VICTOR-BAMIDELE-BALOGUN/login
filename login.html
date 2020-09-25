@@ -1,0 +1,285 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        /* *{
+            margin: 0;
+            padding:0;
+        } */
+        #header{
+            background-color: #313d4b;
+            width: 100vw;
+            height: 5em;
+            border-bottom: 3px solid orange;
+        }
+
+        #museum-logo{
+            position: relative;
+        top:15px;
+        height: 40px;            
+        }
+
+        #museum-text{
+            top:10px;
+            color: white;
+        }
+
+        
+        #flex1{
+           display: flex;
+           position: relative;
+           top: 10px;   
+           left: 10px;
+       }
+
+       .center-header{
+           color:white;
+           text-align: center;    
+           position: relative; 
+           top:-98px 
+           }
+
+       #time-background{
+           width: 10em;
+           height: 2em;
+           background-color: orange;
+           position: relative;
+           left: 55em;
+           padding-top: 10px;
+       }
+       #date{
+           position: relative;
+           top:10px;
+       }
+
+       .login{
+        width: 100vw;
+        height: 30px;
+       }
+
+       #login-text{
+        font-size: 20px;
+        position: relative;
+        left: 30px;
+       }
+
+       #line{
+           width: 25px;
+           height: 2px;
+           position: relative;
+           top: -20px;
+           left: 30px;
+           background-color: orange;
+       }
+       
+       #bodyful{
+        background-color: #eeeeee;   
+        width: 100vw;
+        height: 82vh;
+        
+            }
+        
+        #login-panel{
+            width:25vw;
+            height:75vh;
+            background-color: white;
+            position: relative;
+            margin: 0 auto;
+            top: 25px;
+        }
+
+        #setting-panel{
+            width:70px;
+            height:70px;
+            background-color: orange;
+            position: relative;
+            margin: 0 auto;
+            float: right;
+            right: 30px;;
+            top: -25em;
+        }
+
+        #logger-text{
+            font-size: 2em;
+            color: black;
+            position: relative;
+            left: 6em;
+            top: 1.7em;
+        }
+
+        #Question-text{
+            color: grey;
+            position: relative;
+            top: 2em;
+            left: 10em;
+        }
+        #SignUp-Text{
+            color: red;
+        }
+
+        .Social-div{
+            width: 25em;
+            height: 3em;
+            border-radius: 10px 10px 10px 10px;
+            color: white;
+            text-align: center;      
+                  
+        }
+
+        #google-div{
+            background-color: red;
+            position: relative;
+            top: 4em;
+            left: 2.7em;
+        }
+
+        #facebook-div{
+            background-color: rgb(10, 64, 134);
+            position: relative;
+            top: 6em;
+            left: 2.7em;
+        }
+
+        #twitter-div{
+            background-color: rgb(0, 162, 255);
+            position: relative;
+            top: 8em;
+            left: 2.7em;
+        }
+
+        #login-div{
+            background-color: orange;
+            position: relative;
+            top: 10em;
+            left: 2.7em;
+        }
+
+        .social-img{
+            width: 20px;
+        }
+
+        .text-img{
+            position: relative;
+        top: 10px;
+        }
+
+        .entry{
+            width: 30em;
+            height: 3em;
+            border-radius: 10px 10px 10px 10px;
+            position: relative;
+            border: 1px solid grey;
+            margin-bottom: 10px;
+        }
+
+        #email{
+            top: 10em;
+            left: 2.7em;
+            
+        }
+
+        #password{
+            top: 10em;
+            left: 2.7em;
+        }
+
+
+        #flex2{
+           display: flex;
+           position: relative;
+           top: 8.5em;
+           left: 2.2em;
+           color: grey;
+       }
+
+       #flex2 a{
+           position: relative;
+           margin-left: 8em;
+           text-decoration: none;
+           color: grey;
+       }
+
+       #setting-img{
+            width: 40px;
+            position: relative;
+            padding: 1em 1em 1em 1em;
+        }
+
+     
+
+        #or{
+            position: relative;
+            left: 7em;
+            top:8em;
+            color: grey;
+            
+        }
+       
+      
+   
+     
+    </style>
+
+</head>
+<body>
+    <div id="header">
+        <div id="flex1"> 
+            <img id="museum-logo" src="museum.png" alt="museum">
+            <h1 id="museum-text">MUSEUM</h1>
+        </div>
+
+        <div class="center-header">
+            <p id="date">Wednesday, May 1, 2019</p>
+            <p  id="time-background">12:21:53:PM</p>  
+        </div>
+    </div>
+
+    <div class="login">
+        <p id="login-text">LOGIN</p>
+        <div id="line"></div>
+    </div>
+
+    <div id=bodyful>
+            <div id="login-panel">
+                <h2 id="logger-text">Login</h2>
+                <p id="Question-text">No account yet? <span id="SignUp-Text">Sign Up</span></p>
+
+                <div class="Social-div" id="google-div">  <div class="text-img"> <img class="social-img" src="google+.png" alt="google+">  Log in with Google+</div></div>
+                <div class="Social-div" id="facebook-div"> <div class="text-img"> <img class="social-img" src="facebook.png" alt="facebook">  Log in with Facebook</div></div>
+                <div class="Social-div" id="twitter-div"> <div class="text-img"> <img class="social-img" src="twitter.png" alt="twitter">  Log in with Twitter</div></div>
+
+
+               <p id="or">_______________    or    _______________</p>
+               
+
+
+                <input class="entry" id="email" type="text"   placeholder= " Your email address" required>
+                <input class="entry" id="password" type="text"   placeholder= " Password" required>
+
+                <div id="flex2"> 
+                <input type="checkbox" id="RememberMe" name="RememberMe" value="RememberMe">
+                <label id="RememberMe-Label" for="RememberMe">Remember me</label>   
+                <a href="#">I forgot my password</a>
+                
+                </div>
+
+
+                <div class="Social-div" id="login-div"> <div class="text-img">Log in </div></div>
+
+                
+
+              
+
+            </div>
+            <div id="setting-panel">
+                <img id="setting-img" src="twitter.png" alt="Settings">
+            </div>
+        
+    </div>
+
+    
+</body>
+</html>
